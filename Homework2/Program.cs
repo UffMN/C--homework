@@ -23,7 +23,7 @@ int CutNumber(int i)
 Console.WriteLine("Введите натуральное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int i = num;
-if (100 - num > 0) Console.WriteLine("Третье цифры нет");
+if (100 - num > 0) Console.WriteLine("Третьей цифры нет");
 else 
 {
     do
@@ -47,7 +47,7 @@ bool Days (int N)
     else return false;
 }
 
-Console.WriteLine("Writer your first number: ");
+Console.WriteLine("Writer your number: ");
 int N = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(Days (N));
 */
