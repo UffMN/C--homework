@@ -45,9 +45,6 @@ void WriteArray(int[] array)
     }
 }
 
-WriteArray(CrArray(8));
-*/
-
 //Console.Write("Введите размер массива: ");
 //int a = Convert.ToInt32(Console.ReadLine());
 //Console.Write("Введите максимальное число: ");
@@ -55,3 +52,29 @@ WriteArray(CrArray(8));
 //Console.Write("Введите минимальное число: ");
 //int c = Convert.ToInt32(Console.ReadLine());
 //WriteArray(CrArray(a, b, c));
+*/
+
+/*
+int[] CrArray(int size) // int[] CrArray(int size, int max, int min)
+{
+    int[] array = new int[size];
+    for(int i = 0; i < size; i++)
+    {
+        Console.Write($"Введите {i + 1} число: ");
+        array[i] = Convert.ToInt32(Console.ReadLine()); // array[i] = new Random().Next(min, max +1);
+    }
+    return array;
+}
+
+void WriteArray(int[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+    {
+        Console.WriteLine($"array[{i + 1}] is {array[i]}"); //Console.Write(array[i] + " ");
+    }
+}
+
+Console.Write("Введите размер массива: ");
+int a = Convert.ToInt32(Console.ReadLine());
+WriteArray(CrArray(a));
+*/
