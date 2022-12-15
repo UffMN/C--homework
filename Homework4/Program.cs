@@ -1,10 +1,10 @@
 ﻿// Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
 /*
+int X (int d, int e)
+{int f = d; for(int n = 1; n < e; n++) f *= d; return f;}
 int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
-int c = a;
-for(int n = 1; n < b; n++) c *= a;
-Console.WriteLine(c);
+Console.WriteLine(X(a, b));
 */
 
 // Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
